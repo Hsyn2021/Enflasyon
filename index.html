@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zaman Degeri</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Enag Verilerine Gore Paranin Zaman Degerini Hesaplama</h1>
+        <div class="input-container">
+            <input type="number" id="pvInput" placeholder="Deger (PV)">
+            <button id="calculateBtn">Hesapla</button>
+        </div>
+        <div class="select-container">
+            <label for="startYear">Başlangıç Yılı:</label>
+            <select id="startYear">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+            <label for="endYear">Bitiş Yılı:</label>
+            <select id="endYear">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+        </div>
+        <p id="sonuc"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
